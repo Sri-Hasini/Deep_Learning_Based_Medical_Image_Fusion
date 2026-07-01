@@ -1,142 +1,93 @@
 # 🧠 Deep Learning Based Medical Image Fusion
 
-An Attention-based Multi-scale Transformer Fusion Network (AMTF-Net) for fusing MRI and CT medical images using Deep Learning and Explainable AI.
+An AI-based Medical Image Fusion project that combines MRI and CT images using Deep Learning techniques to generate high-quality fused medical images for improved diagnosis.
 
 ---
 
 ## 📌 Project Overview
 
-Medical image fusion combines complementary information from MRI and CT scans into a single informative image for improved diagnosis.
+This project proposes an **Attention-based Multi-scale Transformer Fusion Network (AMTF-Net)** for multimodal medical image fusion.
 
-The proposed AMTF-Net integrates
+The framework integrates:
 
 - Multi-scale Feature Extraction
 - Attention Mechanism
 - Transformer Encoder
 - Feature Fusion
-- Grad-CAM Explainability
+- Explainable AI (Grad-CAM)
 
 ---
 
-## 🚀 Features
+## 🚀 Technologies Used
 
-✔ MRI-CT Image Fusion
-
-✔ Multi-scale Feature Extraction
-
-✔ Transformer-based Learning
-
-✔ Attention Module
-
-✔ Explainable AI (Grad-CAM)
-
-✔ Performance Evaluation
+- Python
+- TensorFlow
+- PyTorch
+- OpenCV
+- NumPy
+- Matplotlib
+- Google Colab
 
 ---
 
-## 🏗 Architecture
+# 🔄 Workflow
 
 <p align="center">
-<img src="images/architecture.png" width="700">
+<img src="images/workflow.jpeg" width="750">
 </p>
 
 ---
 
-## 🔄 Workflow
+# 🖼️ Fused Image
 
 <p align="center">
-<img src="images/workflow.png" width="700">
+<img src="images/fused.png" width="550">
 </p>
 
 ---
 
-## 📂 Dataset
-
-- MRI Images
-- CT Images
-
-Dataset is preprocessed using
-
-- Resizing
-- Normalization
-- Enhancement
-
----
-
-## 🛠 Technologies Used
-
-| Technology | Purpose |
-|------------|----------|
-| Python | Programming |
-| TensorFlow | Deep Learning |
-| PyTorch | Deep Learning |
-| OpenCV | Image Processing |
-| NumPy | Numerical Computing |
-| Matplotlib | Visualization |
-| Google Colab | Development |
-
----
-
-## 📊 Results
-
-### Input Images
+# 🔥 Grad-CAM Overlay
 
 <p align="center">
-<img src="images/input_images.png" width="700">
+<img src="images/overlay.png" width="550">
 </p>
 
 ---
 
-### Fused Image
-
-<p align="center">
-<img src="images/fused_output.png" width="450">
-</p>
-
----
-
-### Grad-CAM
-
-<p align="center">
-<img src="images/gradcam.png" width="600">
-</p>
-
----
-
-### Evaluation Metrics
+# 📊 Evaluation Metrics
 
 <p align="center">
 <img src="images/metrics.png" width="550">
 </p>
 
-| Metric | Value |
-|---------|-------|
-| Entropy | 4.6957 |
-| SSIM | 0.6474 |
-| PSNR | 15.7173 dB |
-| Mutual Information | 2.1557 |
-| Correlation | 0.8027 |
-| Fusion Accuracy | 64.74% |
+---
+
+## ✨ Features
+
+- MRI & CT Image Fusion
+- Attention-based Feature Learning
+- Multi-scale Feature Extraction
+- Transformer-based Architecture
+- Explainable AI using Grad-CAM
+- Performance Evaluation using SSIM, PSNR, Entropy, MI
 
 ---
 
-## 📈 Future Work
+## 📈 Future Scope
 
-- MRI-PET Fusion
-- PET-CT Fusion
-- Vision Transformers
+- MRI–PET Image Fusion
+- PET–CT Image Fusion
+- Vision Transformers (ViT)
 - Hybrid Loss Functions
 - Clinical Deployment
 
 ---
 
-## 👨‍💻 Authors
+## 👩‍💻 Authors
 
-Sri Hasini Sripada
-
-Lakshmi Hasini Reddy Gondesi
-
-Deekshitha Nava Gopika Mede
+- Sri Hasini Sripada
+- Lakshmi Hasini Reddy Gondesi
+- Deekshitha Nava Gopika Mede
 
 Department of Computer Science and Engineering
 
